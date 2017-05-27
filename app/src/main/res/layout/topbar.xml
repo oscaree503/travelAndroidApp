@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="5"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:id="@+id/topbar"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:background="@color/home_activity_text">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textSize="25dp"
+        android:id="@+id/btn_left_topbar"
+        android:textColor="#ffffff"
+        android:text="@string/fa_angle_left"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:text="Title"
+        android:id="@+id/title_topbar_txt"
+        android:textSize="@dimen/title_txt"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:lines="1" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/btn_right_topbar"
+        android:textColor="#ffffff"
+        android:text="@string/fa_home"
+        android:textSize="25dp"
+        android:gravity="center"
+        />
+
+</LinearLayout>
+

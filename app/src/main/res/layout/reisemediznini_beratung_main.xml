@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:background="@android:color/white">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/reisemedizinische_beratung_durch"
+        android:textSize="@dimen/heading_h1"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/textView"
+        android:gravity="center|left"
+        android:lineSpacingExtra="@dimen/letter_spacing"
+        android:layout_marginTop="@dimen/square_margin"
+        android:layout_marginBottom="@dimen/padd_w_lt_sp_top"
+        android:layout_marginLeft="@dimen/mainFrame_margin"
+        android:layout_marginRight="@dimen/mainFrame_margin" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/vor_der_reise"
+        android:textColor="@color/text_color_black"
+        android:gravity="center_vertical|start"
+        android:lineSpacingExtra="@dimen/letter_spacing"
+        android:textSize="@dimen/body_text"
+        android:layout_marginLeft="@dimen/mainFrame_margin"
+        android:layout_marginRight="@dimen/mainFrame_margin" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/grey"
+        android:layout_marginTop="@dimen/padd_w_lt_sp"
+        android:layout_marginBottom="@dimen/square_margin"
+        />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_color_black"
+            android:gravity="center|start"
+            android:textStyle="bold"
+            android:text="@string/malariaprophylaxe"
+            android:textSize="@dimen/heading_h2"
+            android:lineSpacingExtra="@dimen/letter_spacing"
+            android:layout_marginBottom="@dimen/padd_w_lt_sp"
+            android:layout_marginLeft="@dimen/mainFrame_margin"
+            android:layout_marginRight="@dimen/mainFrame_margin" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/grey"
+        android:layout_marginTop="@dimen/padd_w_lt_sp_top"
+        android:layout_marginBottom="@dimen/square_margin" />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:text="@string/notwendige_impfungen"
+            android:textColor="@color/text_color_black"
+            android:textSize="@dimen/heading_h2"
+            android:lineSpacingExtra="@dimen/letter_spacing"
+            android:layout_marginBottom="@dimen/padd_w_lt_sp"
+        android:textIsSelectable="false"
+        android:textStyle="bold"
+        android:layout_marginLeft="@dimen/mainFrame_margin"
+        android:layout_marginRight="@dimen/mainFrame_margin" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="2"
+        android:layout_marginLeft="@dimen/mainFrame_margin"
+        android:layout_marginBottom="@dimen/padd_w_lt_sp_top"
+        android:layout_marginRight="@dimen/mainFrame_margin"
+        android:paddingLeft="@dimen/square_margin">
+        <TableRow android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:id="@+id/bullet"
+            />
+        <TextView
+            android:text="@string/abstimmung_impfschutz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/padd_w_lt_sp_top"
+            android:textColor="@color/text_color_black"
+            android:lineSpacingExtra="@dimen/letter_spacing"
+            android:textSize="@dimen/body_text" />
+    </TableRow>
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:id="@+id/bullet1"
+                />
+            <TextView
+                android:text="@string/impfs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/padd_w_lt_sp_top"
+                android:textColor="@color/text_color_black"
+                android:lineSpacingExtra="@dimen/letter_spacing"
+                android:gravity="top"
+                android:textSize="@dimen/body_text" />
+        </TableRow>
+
+    </TableLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/grey"
+        android:layout_marginBottom="@dimen/square_margin"
+        android:layout_marginTop="@dimen/square_margin" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_color_black"
+        android:gravity="center|start"
+        android:textStyle="bold"
+        android:text="@string/infektionsrisiko"
+        android:textSize="@dimen/heading_h2"
+        android:lineSpacingExtra="@dimen/letter_spacing"
+        android:layout_marginBottom="@dimen/padd_w_lt_sp"
+        android:layout_marginLeft="@dimen/mainFrame_margin"
+        android:layout_marginRight="@dimen/mainFrame_margin" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|start"
+        android:text="@string/ansteckungsgefahr_und_ggf"
+        android:id="@+id/add_btn1"
+        android:textColor="@color/text_color_black"
+        android:lineSpacingExtra="@dimen/letter_spacing"
+        android:textSize="@dimen/body_text"
+        android:layout_marginLeft="@dimen/mainFrame_margin"
+        android:layout_marginRight="@dimen/mainFrame_margin" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/grey"
+        android:layout_marginTop="@dimen/padd_w_lt_sp"
+        android:layout_marginBottom="@dimen/padd_w_lt_sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginRight="@dimen/mainFrame_margin"
+        android:layout_marginLeft="@dimen/mainFrame_margin">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_color_black"
+            android:text="@string/reiseapotheke"
+            android:layout_weight="2.5"
+            android:textStyle="bold"
+            android:textSize="@dimen/heading_h2"
+            android:layout_marginBottom="@dimen/padd_w_lt_sp" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="@string/fa_arrow_circle_o_right"
+                android:clickable="true"
+                android:id="@+id/circular_arrow_1"
+                android:gravity="center|end"
+                android:textSize="25sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/grey"
+        android:layout_marginTop="@dimen/padd_w_lt_sp"
+        android:layout_marginBottom="@dimen/square_margin"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:clickable="true"
+        android:layout_marginLeft="@dimen/mainFrame_margin"
+        android:layout_marginRight="@dimen/mainFrame_margin">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.5"
+            android:text="@string/weitere_information_zu"
+            android:id="@+id/weitere_information_zu"
+            android:gravity="center|start"
+            android:textColor="@color/text_color_black"
+            android:textSize="@dimen/body_text"
+            android:lineSpacingExtra="@dimen/letter_spacing"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/mainFrame_margin" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:text="@string/fa_arrow_circle_o_right"
+            android:id="@+id/circular_arrow_2"
+            android:gravity="top|end"
+            android:clickable="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25sp"
+            android:layout_marginTop="@dimen/square_margin" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="10">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:text="Dr. Abu Hassan"
+        android:gravity="center|left"
+        android:textColor="@color/colorPrimary"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="@dimen/body_text"
+        android:id="@+id/docName" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.3"
+        android:gravity="center"
+        android:id="@+id/docPhone"
+        android:text="@string/fa_phone"
+        android:background="@android:color/white"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/fafontsize"
+        android:layout_marginRight="5dp" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.3"
+        android:gravity="center"
+        android:id="@+id/docMail"
+        android:text="@string/fa_envelope"
+        android:background="@android:color/white"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/fafontsize"
+        android:layout_marginRight="5dp" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.3"
+        android:gravity="center"
+        android:id="@+id/docEdit"
+        android:text="@string/fa_pencil_square_o"
+        android:background="@android:color/white"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/fafontsize"
+        android:layout_marginRight="5dp" />
+</LinearLayout>

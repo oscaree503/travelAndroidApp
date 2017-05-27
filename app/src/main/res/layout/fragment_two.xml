@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:background="@android:color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/inner_frag_one"
+            android:weightSum="1"
+            android:paddingTop="10dp"
+            android:orientation="vertical">
+        <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="@dimen/heading_h1"
+             android:text="@string/diagnose_behandlung"
+              android:id="@+id/textView2"
+              android:gravity="center"
+              android:textColor="@color/colorPrimary"
+              android:layout_gravity="center_horizontal"
+              android:layout_alignParentRight="true"
+              android:layout_alignParentEnd="true"
+            android:textStyle="bold">
+        </TextView>
+        <Space
+              android:layout_width="match_parent"
+              android:layout_height="30px"
+              android:layout_below="@+id/textView2"
+              android:layout_centerHorizontal="true"
+              android:id="@+id/space" >
+        </Space>
+
+            <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceLarge"
+              android:text="@string/diagnose"
+              android:id="@+id/textView3"
+              android:background="@color/colorPrimary"
+              android:textColor="@android:color/white"
+                android:paddingTop="@dimen/padd_w_lt_sp_top"
+                android:paddingBottom="@dimen/padd_w_lt_sp"
+              android:textSize="@dimen/heading_h2" />
+
+               <Space
+                   android:layout_width="match_parent"
+                   android:layout_height="30px"
+                   android:id="@+id/space7"
+                   android:layout_below="@+id/textView3"
+                   android:layout_alignParentLeft="true"
+                   android:layout_alignParentStart="true" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textAppearance="?android:attr/textAppearanceMedium"
+                   android:text="Medium Text"
+                   android:id="@+id/textView4"
+                   android:textColor="@android:color/black"
+                   android:layout_below="@+id/space7"
+                   android:layout_alignParentLeft="true"
+                   android:layout_alignParentStart="true"
+                   android:layout_alignParentRight="true"
+                   android:layout_alignParentEnd="true"
+                   android:textSize="@dimen/body_text" />
+
+               <Space
+                   android:layout_width="match_parent"
+                   android:layout_height="30px"
+                   android:id="@+id/space8"
+                   android:layout_below="@+id/textView4"
+                   android:layout_alignParentLeft="true"
+                   android:layout_alignParentStart="true" />
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="@string/restaktivitat"
+                   android:paddingTop="@dimen/padd_w_lt_sp_top"
+                   android:paddingBottom="@dimen/padd_w_lt_sp"
+                   android:id="@+id/textView5"
+                   android:background="@color/colorPrimary"
+                   android:gravity="left|center_vertical"
+                   android:textColor="@android:color/white"
+
+                   android:textSize="@dimen/heading_h2" />
+
+               <Space
+                   android:layout_width="match_parent"
+                   android:layout_height="30px"
+                   android:id="@+id/space9"
+                   android:layout_below="@+id/textView5"
+                   android:layout_alignParentLeft="true"
+                   android:layout_alignParentStart="true" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textAppearance="?android:attr/textAppearanceMedium"
+                   android:text="12%"
+                   android:id="@+id/textView6"
+                   android:textColor="@android:color/black"
+                   android:layout_alignParentStart="true"
+
+                   android:layout_below="@+id/space9"
+                   android:layout_alignParentLeft="true"
+                   android:textSize="@dimen/body_text" />
+
+               <Space
+                   android:layout_width="match_parent"
+                   android:layout_height="30px"
+                   android:id="@+id/space10"
+                   android:layout_alignParentStart="true"
+                   android:layout_below="@+id/textView6"
+                   android:layout_alignParentLeft="true" />
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="@string/therapieart"
+                   android:id="@+id/textView7"
+                   android:background="@color/colorPrimary"
+                   android:paddingTop="@dimen/padd_w_lt_sp_top"
+                   android:paddingBottom="@dimen/padd_w_lt_sp"
+                   android:textColor="@android:color/white"
+
+                   android:textSize="@dimen/heading_h2" />
+
+               <Space
+                   android:layout_width="match_parent"
+                   android:layout_height="30px"
+                   android:id="@+id/space11"
+                   android:layout_below="@+id/textView7"
+                   android:layout_alignParentLeft="true"
+                   android:layout_alignParentStart="true" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textAppearance="?android:attr/textAppearanceMedium"
+                   android:text="PPx"
+                   android:id="@+id/textView8"
+                   android:textColor="@android:color/black"
+                   android:layout_alignParentStart="true"
+
+                   android:layout_below="@+id/space11"
+                   android:layout_alignParentLeft="true"
+                   android:textSize="@dimen/body_text" />
+
+               <Space
+                   android:layout_width="match_parent"
+                   android:layout_height="30px"
+                   android:id="@+id/space12"
+                   android:layout_alignParentStart="true"
+                   android:layout_below="@+id/textView8"
+                   android:layout_alignParentLeft="true" />
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:textAppearance="?android:attr/textAppearanceLarge"
+                   android:text="@string/mein_faktor"
+                   android:id="@+id/textView9"
+                   android:background="@color/colorPrimary"
+                   android:textColor="@android:color/white"
+                   android:paddingTop="@dimen/padd_w_lt_sp_top"
+                   android:paddingBottom="@dimen/padd_w_lt_sp"
+                   android:textSize="@dimen/heading_h2" />
+
+               <Space
+                   android:layout_width="match_parent"
+                   android:layout_height="30px"
+                   android:id="@+id/space13"
+                   android:layout_below="@+id/textView9"
+                   android:layout_alignParentLeft="true"
+                   android:layout_alignParentStart="true" />
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:textAppearance="?android:attr/textAppearanceMedium"
+                   android:text="Lorem ipsum dolor sit amet, sapien etiam, nunc amet dolor ac odio mauris justo. "
+                   android:id="@+id/textView10"
+                   android:textColor="@android:color/black"
+                   android:layout_alignParentStart="true"
+
+                   android:layout_below="@+id/space13"
+                   android:layout_alignParentLeft="true"
+                   android:textSize="@dimen/body_text" />
+
+               <Space
+                   android:layout_width="match_parent"
+                   android:layout_height="30px"
+                   android:id="@+id/space14"
+                   android:layout_alignParentStart="true"
+                   android:layout_below="@+id/textView10"
+                   android:layout_alignParentLeft="true" />
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:textAppearance="?android:attr/textAppearanceLarge"
+                   android:text="@string/dosierung"
+                   android:id="@+id/textView11"
+                   android:background="@color/colorPrimary"
+
+                   android:textColor="@android:color/white"
+                   android:paddingTop="@dimen/padd_w_lt_sp_top"
+                   android:paddingBottom="@dimen/padd_w_lt_sp"
+                   android:textSize="@dimen/heading_h2" />
+
+               <Space
+                   android:layout_width="match_parent"
+                   android:layout_height="30px"
+                   android:id="@+id/space15"
+                   android:layout_below="@+id/textView11"
+                   android:layout_alignParentLeft="true"
+                   android:layout_alignParentStart="true" />
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:textAppearance="?android:attr/textAppearanceMedium"
+                   android:text="Lorem ipsum dolor"
+                   android:id="@+id/textView12"
+                   android:textColor="@android:color/black"
+                   android:paddingTop="@dimen/padd_w_lt_sp_top"
+                   android:paddingBottom="@dimen/padd_w_lt_sp"
+                   android:textSize="@dimen/body_text" />
+
+               <Space
+                   android:layout_width="match_parent"
+                   android:layout_height="30px"
+                   android:id="@+id/space16"
+                   android:layout_alignParentStart="true"
+                   android:layout_below="@+id/textView12"
+                   android:layout_alignParentLeft="true" />
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:textAppearance="?android:attr/textAppearanceLarge"
+                   android:text="@string/dosierungs_frequenz"
+                   android:id="@+id/textView13"
+                   android:background="@color/colorPrimary"
+
+                   android:textColor="@android:color/white"
+                   android:paddingTop="@dimen/padd_w_lt_sp_top"
+                   android:paddingBottom="@dimen/padd_w_lt_sp"
+                   android:textSize="@dimen/heading_h2" />
+
+               <Space
+                   android:layout_width="match_parent"
+                   android:layout_height="30px"
+                   android:id="@+id/space17"
+                   android:layout_below="@+id/textView13"
+                   android:layout_alignParentLeft="true"
+                   android:layout_alignParentStart="true" />
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:textAppearance="?android:attr/textAppearanceMedium"
+                   android:text="Lorem ipsum dolor"
+                   android:id="@+id/textView14"
+                   android:textColor="@android:color/black"
+                   android:layout_alignParentStart="true"
+
+                   android:layout_below="@+id/space17"
+                   android:layout_alignParentLeft="true"
+                   android:textSize="@dimen/body_text" />
+
+               <Space
+                   android:layout_width="match_parent"
+                   android:layout_height="30px"
+                   android:id="@+id/space18"
+                   android:layout_alignParentStart="true"
+                   android:layout_below="@+id/textView14"
+                   android:layout_alignParentLeft="true" />
+        </LinearLayout>
+    </ScrollView>
+    <include layout="@layout/footer_frg"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    </RelativeLayout>

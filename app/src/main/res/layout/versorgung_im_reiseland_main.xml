@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:layout_marginRight="@dimen/mainFrame_margin"
+    android:layout_marginLeft="@dimen/mainFrame_margin">
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/colorPrimaryDark"
+    android:text="@string/Medizinische_heading"
+    android:textSize="@dimen/heading_h1"
+    android:layout_marginBottom="@dimen/square_margin"
+    android:layout_marginTop="@dimen/square_margin"
+        android:lineSpacingExtra="@dimen/letter_spacing" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_color_black"
+        android:text="@string/machen_mie_sich_vor"
+        android:textSize="@dimen/body_text"
+        android:layout_marginBottom="@dimen/square_margin"
+        android:lineSpacingExtra="@dimen/letter_spacing" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="2"
+        android:layout_marginBottom="@dimen/square_margin">
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/square_margin">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:id="@+id/bullet1"
+                android:textSize="@dimen/body_text"
+                android:textStyle="bold" />
+            <TextView
+                android:text="@string/machen_mie_sub"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/padd_w_lt_sp_top"
+                android:textColor="@color/text_color_black"
+                android:lineSpacingExtra="@dimen/letter_spacing"
+                android:textSize="@dimen/body_text" />
+        </TableRow>
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:id="@+id/bullet2"
+                android:textSize="@dimen/body_text"
+                android:textStyle="bold" />
+            <TextView
+                android:text="@string/machen_mie_sub_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/padd_w_lt_sp_top"
+                android:textColor="@color/text_color_black"
+                android:lineSpacingExtra="@dimen/letter_spacing"
+                android:gravity="top"
+                android:textSize="@dimen/body_text" />
+        </TableRow>
+
+    </TableLayout>
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:orientation="horizontal"
+         android:layout_marginBottom="@dimen/square_margin">
+         <TableLayout
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="2.5"
+             android:shrinkColumns="2">
+         <TableRow android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_column="1"
+                 android:id="@+id/bullet3"
+                 android:textSize="@dimen/body_text"
+                 android:textStyle="bold" />
+             <TextView
+                 android:text="@string/nehmen_sie_zu"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:paddingLeft="@dimen/padd_w_lt_sp_top"
+                 android:textColor="@color/text_color_black"
+                 android:lineSpacingExtra="@dimen/letter_spacing"
+                 android:textSize="@dimen/body_text"
+                 android:layout_marginBottom="@dimen/padd_w_lt_sp_top" />
+         </TableRow>
+         </TableLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:layout_height="wrap_content"
+            android:id="@+id/arrow_with_circle_1"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="@string/fa_arrow_circle_o_right"
+            android:textSize="25sp"
+            android:gravity="right"
+            />
+    </LinearLayout>
+    <!--<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_color_black"
+        android:text="@string/checken_s"
+        android:id="@+id/checken_s"
+        android:textSize="@dimen/body_text"
+        android:lineSpacingExtra="@dimen/letter_spacing"
+
+        android:gravity="center_vertical" />-->
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="2"
+        android:layout_marginBottom="@dimen/square_margin">
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:id="@+id/bullet4"
+            android:textSize="@dimen/body_text"
+            android:textStyle="bold" />
+        <TextView
+            android:text="@string/checken_s"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/padd_w_lt_sp_top"
+            android:textColor="@color/text_color_black"
+            android:lineSpacingExtra="@dimen/letter_spacing"
+            android:textSize="@dimen/body_text"
+            android:layout_marginBottom="@dimen/padd_w_lt_sp_top" />
+    </TableRow>
+    </TableLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="@dimen/square_margin">
+      <!--  <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2.5"
+            android:textColor="@color/text_color_black"
+            android:text="@string/machen_s"
+            android:id="@+id/machen_s"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/body_text"
+            android:lineSpacingExtra="@dimen/letter_spacing"
+            android:gravity="left" />-->
+        <TableLayout
+            android:layout_width="0dp"
+            android:layout_weight="2.5"
+            android:layout_height="wrap_content"
+            android:shrinkColumns="2">
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:id="@+id/bullet5"
+                android:textSize="@dimen/body_text"
+                android:textStyle="bold" />
+            <TextView
+                android:text="@string/machen_s"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/padd_w_lt_sp_top"
+                android:textColor="@color/text_color_black"
+                android:textSize="@dimen/body_text"
+                android:lineSpacingExtra="@dimen/letter_spacing"
+                android:gravity="left"
+                android:layout_marginBottom="@dimen/padd_w_lt_sp_top" />
+        </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:layout_height="match_parent"
+            android:id="@+id/fa_hand_o_right_1"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="@string/fa_hand_o_right"
+            android:textSize="25sp"
+            android:clickable="true"
+            android:gravity="right"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:layout_marginBottom="@dimen/square_margin">
+        <!--<TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:textColor="@color/text_color_black"
+            android:text="@string/notieren_s"
+            android:id="@+id/notieren_s"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textSize="@dimen/body_text"
+            android:lineSpacingExtra="@dimen/letter_spacing" />-->
+        <TableLayout
+            android:layout_width="0dp"
+            android:layout_weight="2.5"
+            android:layout_height="wrap_content"
+            android:shrinkColumns="2">
+            <TableRow android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:id="@+id/bullet6"
+                    android:textSize="@dimen/body_text"
+                    android:textStyle="bold" />
+                <TextView
+                    android:text="@string/notieren_s"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/padd_w_lt_sp_top"
+                    android:textColor="@color/text_color_black"
+                    android:textSize="@dimen/body_text"
+                    android:lineSpacingExtra="@dimen/letter_spacing"
+                    android:gravity="left"
+                    android:layout_marginBottom="@dimen/padd_w_lt_sp_top" />
+            </TableRow>
+        </TableLayout>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:layout_height="wrap_content"
+            android:id="@+id/fa_hand_o_right_2"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="@string/fa_hand_o_right"
+            android:textSize="25sp"
+            android:clickable="true"
+            android:gravity="right" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/square_margin">
+       <!-- <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2.5"
+            android:textColor="@color/text_color_black"
+            android:text="@string/weitere_information_zu_b"
+            android:id="@+id/weitere_information_zu_b"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textSize="@dimen/body_text"
+            android:lineSpacingExtra="@dimen/letter_spacing" />-->
+                <TextView
+                    android:text="@string/weitere_information_zu_b"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.5"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/text_color_black"
+                    android:textSize="@dimen/body_text"
+                    android:lineSpacingExtra="@dimen/letter_spacing"
+                    android:gravity="left"
+                    android:layout_marginBottom="@dimen/padd_w_lt_sp_top" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight=".5"
+            android:layout_height="wrap_content"
+            android:id="@+id/arrow_with_circle_2"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="@string/fa_arrow_circle_o_right"
+            android:textSize="25sp"
+            android:gravity="right"
+             />
+    </LinearLayout>
+</LinearLayout>

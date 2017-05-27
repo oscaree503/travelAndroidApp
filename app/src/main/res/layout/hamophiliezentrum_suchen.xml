@@ -1,0 +1,177 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <include layout="@layout/topbar"
+        android:id="@+id/topbar"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_above="@+id/footer_frg"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@+id/topbar"
+        android:weightSum="3">
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".2"
+        android:layout_margin="@dimen/square_margin"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+         <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+             android:layout_weight="2.8"
+             android:background="@drawable/edit_text_box_country"
+             android:visibility="visible"
+             android:id="@+id/linearLayout_editbox"
+             android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fa_search"
+                android:textSize="20sp"
+                android:background="@drawable/edit_text_box_country"
+                android:id="@+id/search_fa"
+                android:textColor="#ABA9A9"
+                android:paddingLeft="@dimen/square_margin" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:background="@drawable/edit_text_box_country"
+                android:id="@+id/autocomplete"
+                android:textColor="#ABA9A9"
+                android:hint="@string/nach_land_suchen"
+                android:paddingLeft="@dimen/square_margin" />
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="@string/fa_remove"
+                 android:id="@+id/closeSearch"
+                 android:layout_gravity="center_vertical"
+                 android:gravity="right"
+                 android:visibility="gone"
+                 android:paddingRight="@dimen/square_margin"
+                 android:textSize="@dimen/body_text" />
+
+         </LinearLayout>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@drawable/edit_text_box_country"
+            android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:weightSum="2"
+            android:visibility="gone"
+            android:clickable="true"
+            android:id="@+id/linearlayout_search">
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="0dp"
+                android:layout_weight="0.75"
+                android:layout_height="match_parent"
+                android:text="@string/fa_search"
+                android:textSize="20sp"
+                android:paddingRight="10dp"
+                android:textColor="#ABA9A9" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1.25"
+                android:layout_height="match_parent"
+                android:text="@string/nach_land_suchen"
+                android:textSize="11sp"
+                android:gravity="center|left"
+                android:textColor="#ABA9A9" />
+        </LinearLayout>
+    </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+         android:layout_weight="2.6"
+        android:orientation="horizontal"
+        android:baselineAligned="false"
+        android:weightSum="3">
+
+        <ListView
+            android:id="@+id/list_countries"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.8">
+        </ListView>
+
+        <LinearLayout
+            android:id="@+id/side_index"
+            android:layout_width="0dp"
+            android:layout_weight=".2"
+            android:background="@android:color/white"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:clickable="true"
+            android:layout_alignParentTop="true"
+          >
+        </LinearLayout>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:onClick="meinefavoriten"
+            android:layout_weight=".2"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/buttonshape_sky_blue"
+            android:id="@+id/menine_fav_layt"
+            android:gravity="center"
+            android:layout_gravity="bottom">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/meine_favoriten"
+                android:textSize="11sp"
+                android:gravity="center"
+                android:textColor="@android:color/white"/>
+            <TextView
+                android:id="@+id/my_bookmark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fa_bookmark"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_marginLeft="15dp"
+                android:textColor="@android:color/white"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <include android:id="@+id/footer_frg"
+        layout="@layout/footer_frg"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+</RelativeLayout>

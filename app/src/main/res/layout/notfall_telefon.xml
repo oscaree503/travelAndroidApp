@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+    <include layout="@layout/topbar"
+        android:id="@+id/include10" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/notfallrufnummer_eingeben"
+        android:id="@+id/textView17"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/home_activity_text"
+        android:layout_below="@+id/include10"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_alignRight="@+id/linearLayout8"
+        android:layout_alignEnd="@+id/linearLayout8"
+        android:layout_alignLeft="@+id/linearLayout8"
+        android:layout_alignStart="@+id/linearLayout8"
+        android:gravity="center"
+        android:textSize="@dimen/heading_h1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_below="@+id/textView17"
+        android:layout_alignLeft="@+id/linearLayout7"
+        android:layout_alignStart="@+id/linearLayout7"
+        android:layout_alignRight="@+id/linearLayout7"
+        android:layout_alignEnd="@+id/linearLayout7"
+        android:id="@+id/linearLayout8"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/telefon"
+            android:padding="5dp"
+            android:textSize="@dimen/body_text"
+            android:textColor="@color/text_color_black" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:inputType="phone|number"
+            android:textColor="@color/text_color_black"
+            android:background="@drawable/edit_text_borader"
+            android:gravity="center|left"
+            android:padding="5dp"
+            android:layout_margin="2dp"
+            android:textSize="@dimen/body_text"
+            android:id="@+id/number_edt" />
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout7"
+        android:layout_above="@+id/footer_frg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/abbrechen"
+            android:layout_weight="1"
+            android:onClick="save_btn_telefon"
+            android:clickable="true"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:background="@drawable/buttonshape_sky_blue_hamophiliezentrum">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:weightSum="3"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|right"
+                    android:layout_weight="2"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:onClick="save_btn_telefon"
+                    android:textColor="@android:color/white"
+                    android:text="@string/speichern"
+                    android:textSize="@dimen/body_text" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:id="@+id/save_btn"
+                    android:textColor="@android:color/white"
+                    android:text="@string/fa_floppy_o"
+                    android:textSize="@dimen/body_text" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:onClick="abbrechen"
+            android:layout_margin="5dp"
+            android:background="@drawable/buttonshape_gray_heimatzentrum">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@android:color/white"
+                android:text="@string/abbrechen"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="@dimen/body_text" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <include layout="@layout/footer_frg"
+        android:id="@+id/footer_frg"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+</RelativeLayout>

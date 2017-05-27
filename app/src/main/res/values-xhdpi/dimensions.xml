@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="test">16dp</dimen>
+/**** Font Styling begins here ****/
+    <dimen name="heading_h1">18sp</dimen>
+    <dimen name="heading_h2">17sp</dimen>
+    <dimen name="body_text">14sp</dimen>
+    <dimen name="fafontsize">25sp</dimen>
+    <dimen name="hemo_body_font">13sp</dimen>
+
+    /**** Font Styling begins here ****/
+/**** Letter Spacing Styling begins here ****/
+    <dimen name="letter_spacing">5dp</dimen>
+/**** Letter Spacing Styling Ends here ****/
+/**** Margin Styling begins here ****/
+    <dimen name="square_margin">10dp</dimen>
+    <dimen name="padd_w_lt_sp">7dp</dimen>
+    <dimen name="padd_w_lt_sp_top">5dp</dimen>
+    <dimen name="left_bullet_head">1dp</dimen>
+    <dimen name="spiezz_bull_bottom">2dp</dimen>
+    <dimen name="left_bullet_sub">2dp</dimen>
+    <dimen name="mainFrame_margin">16dp</dimen>
+/**** Margin Styling Ends here ****/
+</resources>

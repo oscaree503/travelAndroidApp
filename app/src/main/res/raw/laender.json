@@ -1,0 +1,629 @@
+{"Laender": {
+    "Sprache": "en",
+    "A": [
+        {
+            "ID": "00001",
+            "Land": "Argentina",
+            "Flag": "AR.png",
+            "Country":"AR"
+        },
+        {
+            "ID": "00031",
+            "Land": "Armenia",
+            "Flag": "AM.png",
+            "Country":"AM"
+        },
+        {
+            "ID": "00032",
+            "Land": "Australia",
+            "Flag": "AU.png",
+            "Country":"AU"
+        },
+        {
+            "ID": "00365",
+            "Land": "Albania",
+            "Flag": "AL.png",
+            "Country":"AL"
+        },
+        {
+            "ID": "00366",
+            "Land": "Algeria",
+            "Flag": "DZ.png",
+            "Country":"DZ"
+        },
+        {
+            "ID": "00376",
+            "Land": "Austria",
+            "Flag": "AT.png",
+            "Country":"AT"
+        }
+    ],
+    "B": [
+        {
+            "ID": "00049",
+            "Land": "Bangladesh",
+            "Flag": "BD.png",
+            "Country":"BD"
+        },
+        {
+            "ID": "00051",
+            "Land": "Brazil",
+            "Flag": "BR.png",
+            "Country":"BR"
+        },
+        {
+            "ID": "00388",
+            "Land": "Belarus",
+            "Flag": "BY.png",
+            "Country":"BY"
+        },
+        {
+            "ID": "00390",
+            "Land": "Belgium",
+            "Flag": "BE.png",
+            "Country":"BE"
+        },
+        {
+            "ID": "00400",
+            "Land": "Bulgaria",
+            "Flag": "BG.png",
+            "Country":"BG"
+        }
+    ],
+    "C": [
+        {
+            "ID": "00117",
+            "Land": "Cambodia",
+            "Flag": "KH.png",
+            "Country":"KH"
+        },
+        {
+            "ID": "00121",
+            "Land": "Chile",
+            "Flag": "CL.png",
+            "Country":"CL"
+        },
+        {
+            "ID": "00149",
+            "Land": "Colombia",
+            "Flag": "CO.png",
+            "Country":"CO"
+        },
+        {
+            "ID": "00160",
+            "Land": "Costa Rica",
+            "Flag": "CR.png",
+            "Country":"CR"
+        },
+        {
+            "ID": "00161",
+            "Land": "Cuba",
+            "Flag": "CU.png",
+            "Country":"CU"
+        },
+        {
+            "ID": "00408",
+            "Land": "Canada",
+            "Flag": "CA.png",
+            "Country":"CA"
+        },
+        {
+            "ID": "00434",
+            "Land": "China",
+            "Flag": "CN.png",
+            "Country":"CN"
+        },
+        {
+            "ID": "00447",
+            "Land": "Croatia",
+            "Flag": "HR.png",
+            "Country":"HR"
+        },
+        {
+            "ID": "00449",
+            "Land": "Cyprus",
+            "Flag": "CY.png",
+            "Country":"CY"
+        },
+        {
+            "ID": "00450",
+            "Land": "Czech Republic",
+            "Flag": "CZ.png",
+            "Country":"CZ"
+        }
+    ],
+    "D": [
+        {
+            "ID": "00162",
+            "Land": "Dominican Republic",
+            "Flag": "DO.png",
+            "Country":"DO"
+        },
+        {
+            "ID": "00467",
+            "Land": "Denmark",
+            "Flag": "DK.png",
+            "Country":"DK"
+        }
+    ],
+    "E": [
+        {
+            "ID": "00163",
+            "Land": "Ecuador",
+            "Flag": "EC.png",
+            "Country":"EC"
+        },
+        {
+            "ID": "00171",
+            "Land": "El Salvador",
+            "Flag": "SV.png",
+            "Country":"SV"
+        },
+        {
+            "ID": "00174",
+            "Land": "Eritrea",
+            "Flag": "ER.png",
+            "Country":"ER"
+        },
+        {
+            "ID": "00176",
+            "Land": "Ethiopia",
+            "Flag": "ET.png",
+            "Country":"ET"
+        },
+        {
+            "ID": "00470",
+            "Land": "Egypt",
+            "Flag": "EG.png",
+            "Country":"EG"
+        },
+        {
+            "ID": "00480",
+            "Land": "Estonia",
+            "Flag": "EE.png",
+            "Country":"EE"
+        }
+    ],
+    "F": [
+        {
+            "ID": "00482",
+            "Land": "Finland",
+            "Flag": "FI.png",
+            "Country":"FI"
+        },
+        {
+            "ID": "00487",
+            "Land": "France",
+            "Flag": "FR.png",
+            "Country":"FR"
+        }
+    ],
+    "G": [
+        {
+            "ID": "00178",
+            "Land": "Georgia",
+            "Flag": "GE.png",
+            "Country":"GE"
+        },
+        {
+            "ID": "00183",
+            "Land": "Guadeloupe",
+            "Flag": "GP.png",
+            "Country":"GP"
+        },
+        {
+            "ID": "00184",
+            "Land": "Guatemala",
+            "Flag": "GT.png",
+            "Country":"GT"
+        },
+        {
+            "ID": "00523",
+            "Land": "Germany",
+            "Flag": "D.png",
+            "Country":"D"
+        },
+        {
+            "ID": "00570",
+            "Land": "Greece",
+            "Flag": "GR.png",
+            "Country":"GR"
+        }
+    ],
+    "H": [
+        {
+            "ID": "00185",
+            "Land": "Honduras",
+            "Flag": "HN.png",
+            "Country":"HN"
+        },
+        {
+            "ID": "00575",
+            "Land": "Hungary",
+            "Flag": "HU.png",
+            "Country":"HU"
+        }
+    ],
+    "I": [
+        {
+            "ID": "00189",
+            "Land": "Côte d'Ivoire",
+            "Flag": "CI.png",
+            "Country":"CI"
+        },
+        {
+            "ID": "00591",
+            "Land": "India",
+            "Flag": "IN.png",
+            "Country":"IN"
+        },
+        {
+            "ID": "00590",
+            "Land": "India",
+            "Flag": "IN.png",
+            "Country":"IN"
+        },
+        {
+            "ID": "00660",
+            "Land": "Indonesia",
+            "Flag": "ID.png",
+            "Country":"ID"
+        },
+        {
+            "ID": "00672",
+            "Land": "Iran",
+            "Flag": "IR.png",
+            "Country":"IR"
+        },
+        {
+            "ID": "00677",
+            "Land": "Iraq",
+            "Flag": "IQ.png",
+            "Country":"IQ"
+        },
+        {
+            "ID": "00678",
+            "Land": "Ireland",
+            "Flag": "IE.png",
+            "Country":"IE"
+        },
+        {
+            "ID": "00682",
+            "Land": "Israel",
+            "Flag": "IL.png",
+            "Country":"IL"
+        },
+        {
+            "ID": "00683",
+            "Name": "Centro Emostasi e Trombosi",
+            "Land": "Italy",
+            "Flag": "IT.png",
+            "Country":"IT"
+        }
+    ],
+    "J": [
+        {
+            "ID": "00190",
+            "Land": "Jamaica",
+            "Flag": "JM.png",
+            "Country":"JM"
+        },
+        {
+            "ID": "00730",
+            "Land": "Japan",
+            "Flag": "JP.png",
+            "Country":"JP"
+        },
+        {
+            "ID": "00737",
+            "Land": "Jordan",
+            "Flag": "JO.png",
+            "Country":"JO"
+        }
+    ],
+    "K": [
+        {
+            "ID": "00192",
+            "Land": "Kenya",
+            "Flag": "KE.png",
+            "Country":"KE"
+        },
+        {
+            "ID": "00193",
+            "Land": "Korea",
+            "Flag": "KOR.png",
+            "Country":"KOR"
+        }
+    ],
+    "L": [
+        {
+            "ID": "00207",
+            "Land": "Lithuania",
+            "Flag": "LT.png",
+            "Country":"LT"
+        },
+        {
+            "ID": "00739",
+            "Land": "Latvia",
+            "Flag": "LV.png",
+            "Country":"LV"
+        },
+        {
+            "ID": "00741",
+            "Land": "Lebanon",
+            "Flag": "LB.png",
+            "Country":"LB"
+        }
+    ],
+    "M": [
+        {
+            "ID": "00210",
+            "Land": "Martinique",
+            "Flag": "MQ.png",
+            "Country":"MO"
+        },
+        {
+            "ID": "00211",
+            "Land": "Mexico",
+            "Flag": "MX.png",
+            "Country":"MX"
+        },
+        {
+            "ID": "00244",
+            "Land": "Mongolia",
+            "Flag": "MN.png",
+            "Country":"MN"
+        },
+        {
+            "ID": "00248",
+            "Land": "Morocco",
+            "Flag": "MA.png",
+            "Country":"MA"
+        },
+        {
+            "ID": "00744",
+            "Land": "Macedonia",
+            "Flag": "MK.png",
+            "Country":"MK"
+        },
+        {
+            "ID": "00745",
+            "Land": "Malaysia",
+            "Flag": "MY.png",
+            "Country":"MY"
+        }
+    ],
+    "N": [
+        {
+            "ID": "00251",
+            "Land": "New Zealand",
+            "Flag": "NZ.png",
+            "Country":"NZ"
+        },
+        {
+            "ID": "00257",
+            "Land": "NO",
+            "Flag": "NI.png",
+            "Country":"NI"
+        },
+        {
+            "ID": "00746",
+            "Land": "Netherlands",
+            "Flag": "NL.png",
+            "Country":"NL"
+        },
+        {
+            "ID": "00761",
+            "Land": "Norway",
+            "Flag": "NO.png",
+            "Country":"NO"
+        }
+    ],
+    "P": [
+        {
+            "ID": "00264",
+            "Land": "Panama",
+            "Flag": "PA.png",
+            "Country":"PA"
+        },
+        {
+            "ID": "00265",
+            "Land": "Peru",
+            "Flag": "PE.png",
+            "Country":"PE"
+        },
+        {
+            "ID": "00763",
+            "Land": "Pakistan",
+            "Flag": "PK.png",
+            "Country":"PK"
+        },
+        {
+            "ID": "00776",
+            "Land": "Palestine",
+            "Flag": "PS.png",
+            "Country":"PS"
+        },
+        {
+            "ID": "00777",
+            "Land": "Philippines",
+            "Flag": "PH.png",
+            "Country":"PH"
+        },
+        {
+            "ID": "00781",
+            "Land": "Poland",
+            "Flag": "PL.png",
+            "Country":"PL"
+        },
+        {
+            "ID": "00794",
+            "Land": "Portugal",
+            "Flag": "PT.png",
+            "Country":"PT"
+        }
+    ],
+    "R": [
+        {
+            "ID": "00801",
+            "Land": "Romania",
+            "Flag": "RO.png",
+            "Country":"RO"
+        },
+        {
+            "ID": "00811",
+            "Land": "Russian Federation",
+            "Flag": "RU.png",
+            "Country":"RU"
+        }
+    ],
+    "S": [
+        {
+            "ID": "00273",
+            "Land": "Senegal",
+            "Flag": "SN.png",
+            "Country":"SN"
+        },
+        {
+            "ID": "00274",
+            "Land": "Serbia",
+            "Flag": "RS.png",
+            "Country":"RS"
+        },
+        {
+            "ID": "00284",
+            "Land": "Singapore",
+            "Flag": "SG.png",
+            "Country":"SG"
+        },
+        {
+            "ID": "00285",
+            "Land": "South Africa",
+            "Flag": "ZA.png",
+            "Country":"ZA"
+        },
+        {
+            "ID": "00300",
+            "Land": "Sri Lanka",
+            "Flag": "LK.png",
+            "Country":"LK"
+        },
+        {
+            "ID": "00303",
+            "Land": "Sudan",
+            "Flag": "SD.png",
+            "Country":"SD"
+        },
+        {
+            "ID": "00816",
+            "Land": "Saudi Arabia",
+            "Flag": "SA.png",
+            "Country":"SA"
+        },
+        {
+            "ID": "00817",
+            "Land": "Slovakia",
+            "Flag": "SK.png",
+            "Country":"SK"
+        },
+        {
+            "ID": "00822",
+            "Land": "Slovenia",
+            "Flag": "SL.png",
+            "Country":"SL"
+        },
+        {
+            "ID": "00824",
+            "Land": "Spain",
+            "Flag": "ES.png",
+            "Country":"ES"
+        },
+        {
+            "ID": "00859",
+            "Land": "Sweden",
+            "Flag": "SE.png",
+            "Country":"SE"
+        },
+        {
+            "ID": "00862",
+            "Land": "Switzerland",
+            "Flag": "CH.png",
+            "Country":"CH"
+        }
+    ],
+    "T": [
+        {
+            "ID": "00305",
+            "Land": "Thailand",
+            "Flag": "TH.png",
+            "Country":"TH"
+        },
+        {
+            "ID": "00307",
+            "Land": "Tunisia",
+            "Flag": "TN.png",
+            "Country":"TN"
+        },
+        {
+            "ID": "00310",
+            "Land": "Turkey",
+            "Flag": "TR.png",
+            "Country":"TR"
+        }
+    ],
+    "U": [
+        {
+            "ID": "00898",
+            "Land": "United States",
+            "Flag": "US.png",
+            "Country":"US"
+        },
+        {
+            "ID": "00323",
+            "Land": "United Arab Emirates",
+            "Flag": "AE.png",
+            "Country":"AE"
+        },
+        {
+            "ID": "00326",
+            "Land": "Uruguay",
+            "Flag": "UY.png",
+            "Country":"UY"
+        },
+        {
+            "ID": "00329",
+            "Land": "Uzbekistan",
+            "Flag": "UZ.png",
+            "Country":"UZ"
+        },
+        {
+            "ID": "00874",
+            "Land": "United States",
+            "Flag": "US.png",
+            "Country":"US"
+        }
+    ],
+    "V": [
+        {
+            "ID": "00330",
+            "Land": "Venezuela",
+            "Flag": "VE.png",
+            "Country":"VE"
+        },
+        {
+            "ID": "00360",
+            "Land": "Viet Nam",
+            "Flag": "VN.png",
+            "Country":"VN"
+        }
+    ],
+    "Z": [
+        {
+            "ID": "00364",
+            "Land": "Zimbabwe",
+            "Flag": "ZW.png",
+            "Country":"ZW"
+        }
+    ]
+}
+}
