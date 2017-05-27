@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:background="@android:color/white">
+<include layout="@layout/topbar"/>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@id/topbar"
+    android:layout_above="@+id/footer_frg"
+    android:id="@+id/scrlview"
+    android:paddingTop="5dp"
+    android:layout_marginBottom="@dimen/square_margin">
+    <include layout="@layout/facharztliche_beratung_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+</ScrollView>
+    <include layout="@layout/footer_frg"
+        android:id="@+id/footer_frg"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+</RelativeLayout>

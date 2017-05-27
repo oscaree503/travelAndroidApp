@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+<include layout="@layout/topbar"
+    android:id="@+id/topbar"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/footer_frg"
+        android:layout_below="@+id/topbar"
+        android:layout_margin="5dp"
+        android:clickable="true">
+        <include layout="@layout/versorgung_im_reiseland_main"/>
+    </ScrollView>
+
+    <include layout="@layout/footer_frg"
+        android:id="@+id/footer_frg"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+</RelativeLayout>

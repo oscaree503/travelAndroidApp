@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="bottom"
+    android:background="@android:color/white"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout_footer"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:weightSum="3"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/kontakt"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Kontakt"
+            android:textColor="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/datenschutz"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:text="Datenschutz"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/rechtliches"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:text="Rechtliches"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>

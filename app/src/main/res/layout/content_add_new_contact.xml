@@ -1,0 +1,170 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginBottom="@dimen/square_margin"    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/add_contact_head"
+            android:textSize="@dimen/heading_h1"
+            android:textColor="@color/text_color_black"
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/mainFrame_margin"
+            android:textIsSelectable="false"
+            android:layout_marginTop="@dimen/square_margin" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/geben_sie"
+            android:id="@+id/topTextAC"
+            android:lineSpacingExtra="@dimen/letter_spacing"
+            android:layout_marginBottom="@dimen/square_margin" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/padd_w_lt_sp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:weightSum="3"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
+                    android:textColor="@color/text_color_black"
+                    android:text="@string/name"
+                    android:padding="5dp"
+                    android:layout_margin="1dp"
+                    android:textSize="@dimen/body_text"
+                    android:gravity="left" />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1.5"
+                    android:gravity="center|left"
+                    android:background="@drawable/edit_text_borader"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:layout_margin="1dp"
+                    android:textColor="@color/text_color_black"
+                    android:id="@+id/docName"
+                    android:textSize="@dimen/body_text"
+                    android:padding="@dimen/padd_w_lt_sp_top" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:weightSum="3"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
+                    android:textColor="@color/text_color_black"
+                    android:text="@string/e_mail_address"
+                    android:padding="5dp"
+                    android:layout_margin="1dp"
+                    android:textSize="@dimen/body_text"
+                    android:gravity="left" />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1.5"
+                    android:gravity="center|left"
+                    android:background="@drawable/edit_text_borader"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:padding="5dp"
+                    android:layout_margin="1dp"
+                    android:textColor="@color/text_color_black"
+                    android:id="@+id/docEmail"
+                    android:singleLine="true"
+                    android:textSize="@dimen/body_text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:layout_above="@+id/linearLayout4"
+                android:gravity="center_vertical">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:textColor="@color/text_color_black"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/tele_fonnummer"
+                        android:padding="5dp"
+                        android:layout_margin="1dp"
+                        android:textSize="@dimen/body_text"
+                        android:gravity="left" />
+                </LinearLayout>
+               <!-- <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5">
+                   &lt;!&ndash; <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|left"
+                        android:layout_weight="1"
+                        android:maxLength="3"
+                        android:text="+49"
+                        android:background="@drawable/edit_text_borader"
+                        android:inputType="phone|number"
+                        android:padding="5dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginLeft="2dp"
+                        android:textColor="@color/text_color_black"
+                        android:id="@+id/docTeleCode"
+                        android:textSize="@dimen/body_text" />&ndash;&gt;
+
+                </LinearLayout>-->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5">
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="phone|number"
+                        android:layout_weight="2"
+                        android:background="@drawable/edit_text_borader"
+                        android:gravity="center|left"
+                        android:padding="5dp"
+                        android:layout_margin="1dp"
+                        android:textColor="@color/text_color_black"
+                        android:id="@+id/docTeleMain"
+                        android:singleLine="true"
+                        android:textSize="@dimen/body_text" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

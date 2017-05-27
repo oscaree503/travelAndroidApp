@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#5CBAE6</color>
+    <color name="colorPrimaryDark">#009FDA</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="imnofall">#7132a1</color>
+    <color name="edittext_box">#EAEAEA</color>
+    <color name="orange">#FD6721</color>
+
+    <!--final color code-->
+    <color name="home_activity_text">#009FDA</color>
+    <color name="red">#E53316</color>
+    <color name="sky_blue">#5CBAE6</color>
+    <color name="grey">#CCCCCC</color>
+    <color name="disclamier_text">#7F7F7F</color>
+    <color name="text_color_black">#404040</color>
+
+    <!--Home Screen Color-->
+    <color name="round_btn_text">#009FDA</color>
+    <color name="home_red_btn_home">#E53316</color>
+    <color name="home_grey_btn_home">#999999</color>
+    <color name="home_blue_btn_home">#5CBAE6</color>
+
+
+    <!--Disclaimer Screen Color-->
+    <!--Im notfall-->
+    <color name="yellow">#ff9702</color>
+
+    <color name="dia_log_box">#bee3ec</color>
+
+</resources>

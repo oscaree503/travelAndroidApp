@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.sncss.haemtravel.DisclaimerActivity">
+    <include layout="@layout/topbar"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2"
+        android:paddingTop="5dp"
+        android:layout_below="@+id/topbar"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:padding="@dimen/mainFrame_margin">
+        <include layout="@layout/textview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </ScrollView>
+
+</RelativeLayout>

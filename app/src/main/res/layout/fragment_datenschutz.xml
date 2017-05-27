@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+       >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/datenschutzhinweise"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/body_text"
+        android:lineSpacingExtra="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:text="@string/dat_para1"
+        android:textColor="@color/text_color_black"
+        android:textSize="@dimen/body_text"
+        android:lineSpacingExtra="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+   <!-- <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dat_para2_head"
+        android:textColor="@color/text_color_black"
+    android:textStyle="bold"
+    android:textSize="@dimen/body_text"
+        android:lineSpacingExtra="5dp"
+        android:layout_marginTop="5dp"
+       />-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:text="@string/dat_para2"
+        android:textColor="@color/text_color_black"
+        android:textSize="@dimen/body_text"
+        android:lineSpacingExtra="5dp"
+
+        android:layout_marginBottom="5dp" />
+    <!--<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dat_para3_head"
+        android:textStyle="bold"
+        android:textColor="@color/text_color_black"
+        android:textSize="@dimen/body_text"
+        android:lineSpacingExtra="5dp"
+        android:layout_marginTop="5dp"
+        />-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:text="@string/dat_para3"
+        android:textColor="@color/text_color_black"
+        android:textSize="@dimen/body_text"
+        android:lineSpacingExtra="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+    <!--<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dat_para4_head"
+        android:textStyle="bold"
+        android:textColor="@color/text_color_black"
+        android:textSize="@dimen/body_text"
+        android:lineSpacingExtra="10dp"
+        android:layout_marginTop="5dp"
+         />-->
+       <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:text="@string/dat_para4"
+        android:textColor="@color/text_color_black"
+        android:textSize="@dimen/body_text"
+        android:lineSpacingExtra="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:text="@string/dat_para4b"
+        android:textColor="@color/text_color_black"
+        android:textSize="@dimen/body_text"
+        android:layout_marginTop="5dp"
+        android:lineSpacingExtra="5dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/textView25" />
+   <!-- <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dat_para5_head"
+        android:textStyle="bold"
+        android:textColor="@color/text_color_black"
+        android:textSize="@dimen/body_text"
+        android:lineSpacingExtra="5dp"
+        android:layout_marginTop="5dp"
+        />-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:text="@string/dat_para5"
+        android:textColor="@color/text_color_black"
+        android:textSize="@dimen/body_text"
+        android:lineSpacingExtra="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+   <!-- <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dat_para6_head"
+        android:textStyle="bold"
+        android:textColor="@color/text_color_black"
+        android:textSize="@dimen/body_text"
+        android:lineSpacingExtra="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:text="@string/dat_para5b"
+        android:textColor="@color/text_color_black"
+        android:textSize="@dimen/body_text"
+        android:lineSpacingExtra="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/textView24" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:text="@string/dat_para6"
+        android:textColor="@color/text_color_black"
+        android:textSize="@dimen/body_text"
+        android:lineSpacingExtra="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="2"
+        android:layout_marginBottom="@dimen/padd_w_lt_sp_top">
+        <TableRow android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:id="@+id/bullet1"
+            />
+        <TextView
+            android:text="@string/dat_para6_bullet1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/padd_w_lt_sp_top"
+            android:textColor="@color/text_color_black"
+            android:lineSpacingExtra="@dimen/letter_spacing"
+            android:textSize="@dimen/body_text" />
+    </TableRow>
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:id="@+id/bullet2"
+                />
+            <TextView
+                android:text="@string/dat_para6_bullet2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/padd_w_lt_sp_top"
+                android:textColor="@color/text_color_black"
+                android:lineSpacingExtra="@dimen/letter_spacing"
+                android:textSize="@dimen/body_text" />
+        </TableRow>
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:id="@+id/bullet3"
+                />
+            <TextView
+                android:text="@string/dat_para6_bullet3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/padd_w_lt_sp_top"
+                android:textColor="@color/text_color_black"
+                android:lineSpacingExtra="@dimen/letter_spacing"
+                android:textSize="@dimen/body_text" />
+        </TableRow>
+    </TableLayout>
+    <!--<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dat_para7_head"
+        android:textStyle="bold"
+        android:textColor="@color/text_color_black"
+        android:textSize="@dimen/body_text"
+        android:lineSpacingExtra="5dp"
+        android:layout_marginTop="5dp"
+         />-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:text="@string/dat_para7"
+        android:textColor="@color/text_color_black"
+        android:textSize="@dimen/body_text"
+        android:lineSpacingExtra="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+   <!-- <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/dat_para8_head"
+        android:textStyle="bold"
+    android:textColor="@color/text_color_black"
+    android:textSize="@dimen/body_text"
+    android:lineSpacingExtra="5dp"
+    android:layout_marginTop="5dp"
+     />-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:text="@string/dat_para8"
+        android:textColor="@color/text_color_black"
+        android:textSize="@dimen/body_text"
+        android:lineSpacingExtra="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+   <!-- <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/dat_para9_head"
+        android:textStyle="bold"
+    android:textColor="@color/text_color_black"
+    android:textSize="@dimen/body_text"
+    android:lineSpacingExtra="5dp"
+    android:layout_marginTop="5dp"
+    />-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:text="@string/dat_para9"
+        android:textColor="@color/text_color_black"
+        android:textSize="@dimen/body_text"
+        android:lineSpacingExtra="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+   <!-- <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dat_para10_head"
+        android:textStyle="bold"
+        android:textColor="@color/text_color_black"
+        android:textSize="@dimen/body_text"
+        android:lineSpacingExtra="5dp"
+        android:layout_marginTop="5dp"
+         />-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:text="@string/dat_para10_block1"
+        android:textColor="@color/text_color_black"
+        android:textSize="@dimen/body_text"
+        android:lineSpacingExtra="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:text="@string/dat_para10_block2"
+        android:textColor="@color/text_color_black"
+        android:textSize="@dimen/body_text"
+        android:lineSpacingExtra="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:text="@string/dat_para10_block3"
+        android:textColor="@color/text_color_black"
+        android:textSize="@dimen/body_text"
+        android:lineSpacingExtra="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+
+
+    </LinearLayout>
