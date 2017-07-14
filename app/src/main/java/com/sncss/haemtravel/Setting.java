@@ -158,10 +158,10 @@ public class Setting extends Activity implements OnClickListener{
                     startActivity(new Intent(Setting.this, DiagnoseBehandlung.class));
                     finish();
                 }
-                else if(currentFrag==3){
-                    startActivity(new Intent(Setting.this, Heimatzentrunm.class));
-                    finish();
-                }
+//                else if(currentFrag==3){
+//                    startActivity(new Intent(Setting.this, Heimatzentrunm.class));
+//                    finish();
+//                }
                 break;
         }
 
