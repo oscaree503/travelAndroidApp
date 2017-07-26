@@ -72,7 +72,7 @@ public class CenterListAdapter extends BaseAdapter {
 
        if(centers.get(position).getLat().matches("") || centers.get(position).getLogi().equals("") )
         {
-
+            this.holder.distance.setText(centers.get(position).getStadt()+" - "+"100 km");
         }
         else {
 
